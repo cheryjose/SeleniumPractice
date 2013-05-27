@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1000]T:\users\chery\documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3.sln</TopNode>
+  <SelectedNode>[0-1000]T:\users\chery\documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3.sln</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]T:\users\chery\documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3.sln" Expanded="true" />
+    <Node UniqueName="[0-1005]T:\users\chery\documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Bank.exe" Expanded="true" />
+    <Node UniqueName="[0-1006]SeleniumTests" Expanded="true" />
+    <Node UniqueName="[0-1003]SeleniumTests.AllSalon" Expanded="true" />
+    <Node UniqueName="[0-1001]SeleniumTests.Selenium2TestBase" Expanded="true" />
+  </Nodes>
+</VisualState>
