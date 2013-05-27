@@ -58,30 +58,21 @@ namespace BusinessCreation
 
         }
 
-        public void GetTableData()
+        public IList<IWebElement> GetTableData()
         {
             TableValList = TableContents.FindElements(By.XPath("//Div[@class='resultContainer']/table[@class='resultTable']/tbody/tr"));
             Console.WriteLine(TableValList.Count);
-            foreach (IWebElement Tr in TableValList)
-            {
-                //
-
-            }
-
             IList<IWebElement> TableItems = TableContents.FindElements(By.XPath("//Div[@class='resultContainer']/table[@class='resultTable']/tbody/tr/td"));
             foreach (IWebElement item in TableItems)
             {
                 Console.WriteLine("Item: " + item.GetAttribute("id") + " Value: " + item.Text);
 
             }
+
+            return TableItems;
         }
 
-        public void VerifyTableData()
-        {
-
-
-        }
-
+      
     }
     class Program
     {
